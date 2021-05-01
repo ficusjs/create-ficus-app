@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FicusJS app</title>
+</head>
+
+<body>
+  <hello-world></hello-world>
+  <script type="module">
+    import { html, renderer } from 'https://cdn.skypack.dev/@ficusjs/renderers@3/htm'
+    import { createComponent } from 'https://cdn.skypack.dev/ficusjs@3/component'
+
+    createComponent('hello-world', {
+      renderer,
+      handleClick (e) {
+        window.alert('Hello to you!')
+      },
+      render () {
+        return html`
+          <div>
+            <p>FicusJS hello world</p>
+            <button type="button" onclick="${this.handleClick}">Click me</button>
+          </div>
+        `
+      }
+    })
+  </script>
+</body>
+
+</html>

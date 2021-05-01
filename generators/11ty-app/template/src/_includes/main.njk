@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>\{{title}}</title>
+    <base href="/">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/android-chrome-384x384.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#54e4e5">
+    {% set css %}
+    {% include "../assets/css/globals.css" %}
+    {% include "../assets/css/utilities.css" %}
+    {% endset %}
+    {% if project.environment == "production" %}
+      <style>\{{ css | cssmin | safe }}</style>
+    {% else %}
+      <style>\{{ css | safe }}</style>
+    {% endif %}
+  </head>
+  <body>
+    <div>
+      <main-header></main-header>
+      <main>
+        <article class="text-center">
+          \{{ content | safe }}
+        </article>
+      </main>
+      <main-footer></main-footer>
+    </div>
+    <script type="module" src="assets/js/main.mjs"></script>
+  </body>
+</html>

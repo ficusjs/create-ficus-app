@@ -1,0 +1,9 @@
+node_modules
+test/snapshots
+.DS_Store
+.idea
+.vscode
+*.log
+tmp-test
+.nyc_output
+coverage
