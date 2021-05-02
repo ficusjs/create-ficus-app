@@ -4,4 +4,4 @@ title: FicusJS 11ty app
 ---
 # FicusJS 11ty app
 
-TODO
+Success! You have a FicusJS and 11ty app!

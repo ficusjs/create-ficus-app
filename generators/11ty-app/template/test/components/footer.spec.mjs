@@ -15,5 +15,5 @@ test('render footer component', async t => {
         { createFooterComponent }
       ]) => createFooterComponent({ createComponent, html, renderer }))
   )
-  t.is(comp.querySelector('p').textContent, 'FicusJS 11ty App')
+  t.is(comp.querySelector('p').textContent, 'Learn more about the awesome combination of FicusJS and 11ty for building web apps')
 })

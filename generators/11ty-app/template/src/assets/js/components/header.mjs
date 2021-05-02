@@ -3,8 +3,8 @@ export function createHeaderComponent ({ createComponent, html, renderer }) {
     renderer,
     render () {
       return html`
-        <header class="text-center">
-          <h1>FicusJS 11ty App</h1>
+        <header class="text-center mt-3">
+          <img src="assets/img/ficus-logo-white.svg" alt="FicusJS" width="300" height="67" />
         </header>
       `
     }

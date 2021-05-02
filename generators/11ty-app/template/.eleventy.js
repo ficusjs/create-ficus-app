@@ -2,7 +2,13 @@ const CleanCSS = require("clean-css")
 const htmlmin = require("html-minifier")
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("src/assets")
+  if (process.env.NODE_ENV !== 'production') {
+    eleventyConfig.addPassthroughCopy("src/assets")
+    eleventyConfig.addWatchTarget("./src/assets/")
+  } else {
+    eleventyConfig.addPassthroughCopy("src/assets/css")
+    eleventyConfig.addPassthroughCopy("src/assets/img")
+  }
 
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
     // Eleventy 1.0+: use this.inputPath and this.outputPath instead

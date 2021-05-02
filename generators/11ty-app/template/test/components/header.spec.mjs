@@ -15,5 +15,5 @@ test('render header component', async t => {
         { createHeaderComponent }
       ]) => createHeaderComponent({ createComponent, html, renderer }))
   )
-  t.is(comp.querySelector('h1').textContent, 'FicusJS 11ty App')
+  t.is(comp.querySelector('img').getAttribute('src'), 'assets/img/ficus-logo-white.svg')
 })
