@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# create-ficus-app
-Set-up a web app with FicusJS quickly and easily
-=======
 # Create Ficus App
 
 Set-up a web app with FicusJS quickly and easily
@@ -30,4 +26,3 @@ To choose a starter project, run this command:
 ```bash
 npx create-ficus-app
 ```
->>>>>>> feat: initial commit
