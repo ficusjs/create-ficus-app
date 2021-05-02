@@ -10,9 +10,10 @@ const plopfile = join(__dirname, 'plopfile.js')
 
 if (args.length === 1) {
   const plop = nodePlop(plopfile)
-  const basicApp = plop.getGenerator('basic-app')
+  const basicApp = plop.getGenerator('11ty-app')
   basicApp.runActions({ app_name: args[0] }).then(function (results) {
-    console.log(logSymbols.success, 'Finished successfully!')
+    console.log(logSymbols.success, 'App successfully created!')
+    console.log(logSymbols.info, 'You can now run "npm i" or "yarn" to install NPM packages')
   })
 } else {
   Plop.launch({
