@@ -1,6 +1,6 @@
 {
   "name": "create-ficus-app",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Create FicusJS apps",
   "bin": {
     "create-ficus-app": "./index.js"
