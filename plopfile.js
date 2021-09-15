@@ -1,6 +1,7 @@
 // Require generators
 const basicAppGenerator = require('./generators/basic-app')
 const eleventyAppGenerator = require('./generators/11ty-app')
+const snowpackAppGenerator = require('./generators/snowpack-app')
 
 module.exports = (plop) => {
   // Helper to get the cwd from where the tool was launched. Used within the generators
@@ -9,4 +10,5 @@ module.exports = (plop) => {
   // Load generators
   plop.setGenerator('basic-app', basicAppGenerator(plop))
   plop.setGenerator('11ty-app', eleventyAppGenerator(plop))
+  plop.setGenerator('snowpack-app', snowpackAppGenerator(plop))
 }

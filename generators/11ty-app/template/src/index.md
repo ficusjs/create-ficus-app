@@ -1,7 +1,7 @@
 ---
 layout: main.njk
-title: FicusJS 11ty app
+title: {{app_name}}
 ---
-# FicusJS 11ty app
+# {{app_name}}
 
-Success! You have a FicusJS and 11ty app!
+Hello world!

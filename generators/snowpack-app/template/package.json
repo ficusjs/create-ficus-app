@@ -1,0 +1,17 @@
+{
+  "name": "{{kebabCase app_name}}",
+  "version": "0.1.0",
+  "description": "{{app_name}}",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@ficusjs/renderers": "^4.0.0",
+    "ficusjs": "^3.8.0",
+    "snowpack": "^3.7.1"
+  }
+}

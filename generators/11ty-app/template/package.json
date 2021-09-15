@@ -1,7 +1,7 @@
 {
   "name": "{{kebabCase app_name}}",
   "version": "0.1.0",
-  "description": "FicusJS 11ty app",
+  "description": "{{app_name}}",
   "scripts": {
     "prebuild": "rimraf build",
     "build": "run-p build:*",

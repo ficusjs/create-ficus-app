@@ -1,6 +1,6 @@
 {
   "name": "create-ficus-app",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Create FicusJS apps",
   "bin": {
     "create-ficus-app": "./index.js"
@@ -11,7 +11,9 @@
   "keywords": [
     "ficusjs",
     "frontend",
-    "web-components"
+    "web-components",
+    "11ty",
+    "snowpack"
   ],
   "author": "Matt Levy",
   "license": "MIT",
