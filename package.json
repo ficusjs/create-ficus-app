@@ -18,7 +18,7 @@
   "author": "Matt Levy",
   "license": "MIT",
   "dependencies": {
-    "log-symbols": "4.1.0",
+    "log-symbols": "5.0.0",
     "node-plop": "0.26.3",
     "plop": "2.7.6"
   },
