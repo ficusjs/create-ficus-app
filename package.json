@@ -1,6 +1,6 @@
 {
   "name": "create-ficus-app",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Create FicusJS apps",
   "bin": {
     "create-ficus-app": "./index.js"
@@ -19,10 +19,10 @@
   "license": "MIT",
   "dependencies": {
     "log-symbols": "4.1.0",
-    "node-plop": "0.26.2",
-    "plop": "2.7.4"
+    "node-plop": "0.26.3",
+    "plop": "2.7.6"
   },
   "devDependencies": {
-    "standard": "16.0.3"
+    "standard": "16.0.4"
   }
 }
