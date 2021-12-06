@@ -20,7 +20,7 @@
   "dependencies": {
     "log-symbols": "4.1.0",
     "node-plop": "0.26.3",
-    "plop": "2.7.6"
+    "plop": "3.0.2"
   },
   "devDependencies": {
     "standard": "16.0.4"
