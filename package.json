@@ -19,7 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "log-symbols": "4.1.0",
-    "node-plop": "0.26.3",
+    "node-plop": "0.30.0",
     "plop": "2.7.6"
   },
   "devDependencies": {
