@@ -16,7 +16,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "0.12.1",
+    "@11ty/eleventy": "1.0.0",
     "@ficusjs/renderers": "3.1.0",
     "@ficusjs/testing": "1.1.0",
     "ava": "3.15.0",
