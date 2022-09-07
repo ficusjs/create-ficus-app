@@ -1,6 +1,6 @@
-const validate = require('../../libs/validate')
+import { required } from '../../libs/validate.mjs'
 
-module.exports = (plop) => {
+export default function (plop) {
   return {
     description: 'FicusJS basic app',
     prompts: [
@@ -8,7 +8,7 @@ module.exports = (plop) => {
         type: 'input',
         name: 'app_name',
         message: 'App name:',
-        validate: (value) => validate.required(value, 'App name')
+        validate: (value) => required(value, 'App name')
       }
     ],
     actions: [

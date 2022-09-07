@@ -1,4 +1,4 @@
-module.exports.required = (value, label) => {
+export function required (value, label) {
   if ((/.+/).test(value)) {
     return true
   }

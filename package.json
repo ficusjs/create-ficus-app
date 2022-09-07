@@ -1,9 +1,12 @@
 {
   "name": "create-ficus-app",
-  "version": "1.5.0",
+  "version": "2.0.0",
   "description": "Create FicusJS apps",
+  "engines": {
+    "node": ">=14"
+  },
   "bin": {
-    "create-ficus-app": "./index.js"
+    "create-ficus-app": "./index.mjs"
   },
   "scripts": {
     "lint": "standard \"*.js\" \"generators/**/*.js\""
@@ -18,11 +21,11 @@
   "author": "Matt Levy",
   "license": "MIT",
   "dependencies": {
-    "log-symbols": "4.1.0",
-    "node-plop": "0.26.3",
-    "plop": "2.7.6"
+    "log-symbols": "5.1.0",
+    "node-plop": "0.31.0",
+    "plop": "3.1.1"
   },
   "devDependencies": {
-    "standard": "16.0.4"
+    "standard": "17.0.0"
   }
 }

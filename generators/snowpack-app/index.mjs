@@ -1,22 +1,22 @@
-const validate = require('../../libs/validate')
+import { required } from '../../libs/validate.mjs'
 
-module.exports = (plop) => {
+export default function (plop) {
   return {
-    description: 'FicusJS 11ty app',
+    description: 'FicusJS Snowpack app',
     prompts: [
       {
         type: 'input',
         name: 'app_name',
         message: 'App name:',
-        validate: (value) => validate.required(value, 'App name')
+        validate: (value) => required(value, 'App name')
       }
     ],
     actions: [
       {
         type: 'addMany',
         destination: '{{cwd}}/{{kebabCase app_name}}/',
-        templateFiles: 'generators/11ty-app/template/**/*',
-        base: 'generators/11ty-app/template/',
+        templateFiles: 'generators/snowpack-app/template/**/*',
+        base: 'generators/snowpack-app/template/',
         abortOnFail: true,
         force: true,
         globOptions: { dot: true }
