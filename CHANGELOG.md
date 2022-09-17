@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Breaking
 - Node v14 support only
-- Update to use ES modules
+- Update to ES modules
 
 ## [1.5.0] - 2022-07-22
 
