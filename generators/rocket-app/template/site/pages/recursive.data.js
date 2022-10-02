@@ -25,7 +25,7 @@ export const layout = data => html`
   <main class="text-center">
     ${data.content()}
   </main>
-  <script type="module" src="../src/main.mjs"></script>
+  <script type="module" src="../src/main.js"></script>
   </body>
   </html>
 `;

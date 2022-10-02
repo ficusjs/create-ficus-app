@@ -7,8 +7,8 @@ test('render header component', async t => {
   const comp = await render(
     'main-header',
     () => Promise.all([
-      import('../helpers/ficus.mjs'),
-      import('../../site/src/components/header.mjs')
+      import('../helpers/ficus.js'),
+      import('#components/header.js')
     ])
       .then(([
         { createComponent, html, renderer },
