@@ -8,8 +8,8 @@
     "dev": "npm start",
     "preview": "rocket preview --open",
     "start": "NODE_DEBUG=engine:rendering rocket start --open",
-    "test": "ava test/**/*.spec.mjs",
-    "lint": "standard \"src/**/*.mjs\""
+    "test": "ava test/**/*.spec.js",
+    "lint": "standard \"src/**/*.js\""
   },
   "devDependencies": {
     "@ficusjs/renderers": "^5.1.0",
