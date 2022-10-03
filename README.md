@@ -20,6 +20,7 @@ Depending on what you need to build, Create Ficus App offers a selection of star
 
 More to follow soon!
 
+- [Rocket](https://rocket.modern-web.dev/) app - a simple app using [Rocket](https://rocket.modern-web.dev/)
 - Vite app - a simple app using [Vite](https://vitejs.dev/)
 - Snowpack app - a simple app using [Snowpack](https://www.snowpack.dev/)
 - Basic app - a simple, single HTML page with inline scripts
