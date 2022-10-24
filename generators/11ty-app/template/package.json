@@ -18,7 +18,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
     "@ficusjs/renderers": "^5.1.0",
-    "@ficusjs/testing": "^1.1.0",
+    "@ficusjs/testing": "^2.1.0",
     "ava": "^4.0.1",
     "clean-css": "^5.2.2",
     "cross-env": "^7.0.3",
