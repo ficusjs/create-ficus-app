@@ -12,14 +12,14 @@
     "lint": "standard \"src/**/*.js\""
   },
   "devDependencies": {
-    "@ficusjs/renderers": "^5.1.0",
-    "@ficusjs/testing": "^1.1.0",
-    "@rocket/cli": "^0.20.0",
-    "@rocket/engine": "^0.2.0",
+    "@ficusjs/renderers": "^5.3.1",
+    "@ficusjs/testing": "^2.1.1",
+    "@rocket/cli": "^0.20.4",
+    "@rocket/engine": "^0.2.7",
     "@webcomponents/template-shadowroot": "^0.1.0",
-    "ava": "^4.0.1",
-    "ficusjs": "^5.3.0",
-    "lit": "^2.3.0",
+    "ava": "^5.0.1",
+    "ficusjs": "^5.5.0",
+    "lit": "^2.4.0",
     "standard": "^16.0.4"
   },
   "imports": {
