@@ -18,7 +18,7 @@
     "@rocket/engine": "^0.2.7",
     "@webcomponents/template-shadowroot": "^0.1.0",
     "ava": "^5.0.1",
-    "ficusjs": "^5.5.0",
+    "ficusjs": "^6.1.1",
     "lit": "^2.4.0",
     "standard": "^16.0.4"
   },
