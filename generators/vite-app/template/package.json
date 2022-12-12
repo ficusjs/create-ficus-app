@@ -11,6 +11,6 @@
   "devDependencies": {
     "@ficusjs/renderers": "^5.3.1",
     "ficusjs": "^6.1.1",
-    "vite": "^3.1.8"
+    "vite": "^4.0.0"
   }
 }
