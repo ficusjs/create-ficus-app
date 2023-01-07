@@ -1,6 +1,7 @@
 {
   "name": "{{kebabCase app_name}}",
   "version": "0.1.0",
+  "private": true,
   "description": "{{app_name}}",
   "scripts": {
     "prebuild": "rimraf build",

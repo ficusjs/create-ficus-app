@@ -1,6 +1,6 @@
 {
   "name": "create-ficus-app",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "Create FicusJS apps",
   "engines": {
     "node": ">=14"
@@ -27,5 +27,11 @@
   },
   "devDependencies": {
     "standard": "16.0.4"
+  },
+  "standard": {
+    "ignore": [
+      "*.html",
+      "*.ts"
+    ]
   }
 }

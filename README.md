@@ -20,11 +20,14 @@ Depending on what you need to build, Create Ficus App offers a selection of star
 
 More to follow soon!
 
-- [Rocket](https://rocket.modern-web.dev/) app - a simple app using [Rocket](https://rocket.modern-web.dev/)
-- Vite app - a simple app using [Vite](https://vitejs.dev/)
-- Snowpack app - a simple app using [Snowpack](https://www.snowpack.dev/)
 - Basic app - a simple, single HTML page with inline scripts
 - [11ty](https://www.11ty.dev/) app - a Jamstack site based on [11ty](https://www.11ty.dev/)
+- [Parcel](https://parceljs.org/) app
+- [Parcel](https://parceljs.org/) with [Typescript](https://www.typescriptlang.org/) app
+- [Rocket](https://rocket.modern-web.dev/) app
+- [Snowpack](https://www.snowpack.dev/) app
+- [Vite](https://vitejs.dev/) app
+- [Vite](https://vitejs.dev/) with [Typescript](https://www.typescriptlang.org/) app
 
 To choose a starter project, run this command:
 

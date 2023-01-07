@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-import { dirname, join } from "node:path"
-import { fileURLToPath } from "node:url"
+import { dirname, join } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import minimist from 'minimist'
-import { Plop, run } from "plop"
+import { Plop, run } from 'plop'
 
 const args = process.argv.slice(2)
 const argv = minimist(args)

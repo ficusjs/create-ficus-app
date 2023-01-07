@@ -11,10 +11,10 @@
 <body>
   <hello-world></hello-world>
   <script type="module">
-    import { html, renderer } from 'https://cdn.skypack.dev/@ficusjs/renderers@3/htm'
-    import { createComponent } from 'https://cdn.skypack.dev/ficusjs@3/component'
+    import { html, renderer } from 'https://cdn.skypack.dev/@ficusjs/renderers@5/uhtml'
+    import { createCustomElement } from 'https://cdn.skypack.dev/ficusjs@6/custom-element'
 
-    createComponent('hello-world', {
+    createCustomElement('hello-world', {
       renderer,
       handleClick (e) {
         window.alert('Hello to you!')
